@@ -21,7 +21,6 @@ body {
    margine: 0 auto;
    padding-top: 60px;
    text-align: center;
-   font-family: 'Ubuntu', sans-serif;
    @include fontsize(22);
    font-weight: 500;
    color: #333;
@@ -30,20 +29,21 @@ body {
  }	
 
 h1 {
-  @include fontsize(50);
+  @include fontsize(55);
   color: #e2e2e2;
   padding-top: 2px;
 }
 
 .img {
-    background-image: url(img/portrait.jpg);
+    display: block;
+    background-image: url(images/portrait.jpg);
     background-size: cover;
 }
 
 a.btn{
   display: inline-block;
   margin: 100px 40px 0;
-  padding: 2em 5em;
+  padding: 1.5em 5em;
   @include fontsize(26);
   text-decoration: none;
   text-transform: uppercase;

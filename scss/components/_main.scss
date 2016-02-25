@@ -35,13 +35,13 @@ h1 {
   text-shadow: 1px 1px 0 #f2f2f2, 2px 2px 0 #f2f2f2;
 }
 
-/* $Buttom */
 a.btn{
   display: inline-block;
-  margin: 15px 15px 0;
-  padding: .6em 1.1em;
+  margin: 1000px 40px 0;
+  padding: 2em 5em;
   @include fontsize(26);
   text-decoration: none;
+  text-transform: uppercase;
   outline: none;
   color: #fff;
   background-color: $color-btn;

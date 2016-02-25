@@ -50,16 +50,16 @@ body {
 }
 
 h1 {
-  font-size: 38px;
-  font-size: 2.375rem;
+  font-size: 100px;
+  font-size: 6.25rem;
   font-family: "Open Sans", sans-serif;
-  font-style: italic;
-  text-shadow: 1px 1px 0 #f2f2f2, 2px 2px 0 #f2f2f2;
+  color: #e2e2e2;
+  padding-top: 900px;
 }
 
 a.btn {
   display: inline-block;
-  margin: 1000px 40px 0;
+  margin: 100px 40px 0;
   padding: 2em 5em;
   font-size: 26px;
   font-size: 1.625rem;

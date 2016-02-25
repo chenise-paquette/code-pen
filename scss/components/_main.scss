@@ -30,14 +30,14 @@ body {
  }	
 
 h1 {
-  @include fontsize(38);
-  font-style: italic;
-  text-shadow: 1px 1px 0 #f2f2f2, 2px 2px 0 #f2f2f2;
+  @include fontsize(100);
+  color: #e2e2e2;
+  padding-top: 900px;
 }
 
 a.btn{
   display: inline-block;
-  margin: 1000px 40px 0;
+  margin: 100px 40px 0;
   padding: 2em 5em;
   @include fontsize(26);
   text-decoration: none;

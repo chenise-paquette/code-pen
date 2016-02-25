@@ -24,20 +24,14 @@ body {
    @include fontsize(22);
    font-weight: 500;
    color: #333;
-   background-color: $color-bg;
+   background-color: #e2e2e2;
    
  }	
 
 h1 {
   @include fontsize(55);
-  color: #e2e2e2;
+  color: $color-bg;
   padding-top: 2px;
-}
-
-.img {
-    display: block;
-    background-image: url(images/portrait.jpg);
-    background-size: cover;
 }
 
 a.btn{
